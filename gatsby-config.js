@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     siteUrl: "https://www.yourdomain.tld",
-    title: "gatsby-tailwind-storybook-starter",
+    title: "gatsby-tailwind-storybook-starter"
   },
-  plugins: [],
-};
+  plugins: ["gatsby-plugin-postcss"]
+}
